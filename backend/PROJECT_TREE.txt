@@ -1,0 +1,15 @@
+backend/
+├── src/
+│   ├── config/ (database.js, business.config.js)
+│   ├── controllers/ (instagram.controller.js, webhook.controller.js)
+│   ├── models/ (InstagramAccount.js, Message.js)
+│   ├── routes/ (instagram.routes.js)
+│   ├── services/ (aiReply.service.js, instagramMessage.service.js)
+│   ├── utils/ (tokenCrypto.js)
+│   ├── app.js
+│   └── server.js
+├── test.ai.js
+├── .env.example
+├── .gitignore
+├── package.json
+└── README.md
